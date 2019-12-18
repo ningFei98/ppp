@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 2019-12-17 16:29:24 by Hibernate Tools 5.4.7.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="ssh" dynamic-insert="false" dynamic-update="false" mutable="true" name="com.woniu.pojo.Dept" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="dept">
+        <id name="did" type="java.lang.Integer">
+            <column name="did"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="dname" optimistic-lock="true" type="string" unique="false">
+            <column name="dname"/>
+        </property>
+        <property generated="never" lazy="false" name="dloc" optimistic-lock="true" type="string" unique="false">
+            <column name="dloc"/>
+        </property>
+    </class>
+</hibernate-mapping>
