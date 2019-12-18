@@ -21,6 +21,7 @@ public class DeptDAOImpl implements IDeptDAO {
 		System.out.println("我在哪里=====================");
 		
 		System.out.println("我也来了===================");
+		System.out.println("lss到此一游");
 	}
 
 	@SuppressWarnings("unchecked")
