@@ -15,6 +15,7 @@ public class DeptDAOImpl implements IDeptDAO {
 	
 	@Override
 	public void save(Dept obj) {
+		System.out.println("我在这里=====================");
 		sessionFactory.getCurrentSession().save(obj);
 	}
 
