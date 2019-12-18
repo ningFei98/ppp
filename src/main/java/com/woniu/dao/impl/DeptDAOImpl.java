@@ -19,6 +19,8 @@ public class DeptDAOImpl implements IDeptDAO {
 		sessionFactory.getCurrentSession().save(obj);
 		
 		System.out.println("我在哪里=====================");
+		
+		System.out.println("我也来了===================");
 	}
 
 	@SuppressWarnings("unchecked")
